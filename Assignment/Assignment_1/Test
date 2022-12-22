@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+  int mark;
+    cout<<endl<<"Enter Your Marks ";
+    cin>>mark;
+
+    if(mark >95){
+      cout<<endl<<"Congrats, You Got A Grade";
+    }
+    else if (mark>80){
+        cout<<endl<<"Congrats, You Got B Grade";
+    }
+    else if (mark>60){
+        cout<<endl<<"Congrats, You Got C Grade;";
+    }
+    else if (mark>40){
+        cout<<endl<<"Congrts, You Got D Grade";
+    }
+    else if (mark>20){
+        cout<<endl<<"Congrats, You Got E Grade";
+    }
+    else{
+      cout<<endl<<"Better luck Next Time, you got F Grade";
+    }
+  
+}
